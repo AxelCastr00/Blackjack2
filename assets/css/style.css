@@ -1,0 +1,42 @@
+html, body { 
+  width: 100%;
+  margin: 0px;
+}
+
+header { 
+  background-color: #212121;
+  text-align: center;
+}
+
+.title { 
+  color: #F6F6F6; 
+}
+
+#botonera { 
+  padding: 10px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  display: inline-block;
+} 
+
+.playerContain {
+  display: inline-block;
+  width: 100%;
+}
+
+#playerCards, #computerCards { 
+  height: 180px;
+}
+
+section, .playerContain, img, .carta {
+  width: 125px;
+  position: relative;
+  left: 100px;
+  margin-left: -75px;
+}
+
+h3 { 
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 40px;
+}
